@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+        <h1>Create An Account</h1>
+    <form>
+      <div>
+        <label for="fname">First name</label>
+        <input type="text" id="fname" placeholder="First name" required />
+      </div>
+      <div>
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" placeholder="Last name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required />
+      </div>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username" required />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          minlength="10"
+          required
+        />
+      </div>
+      <div>
+        <label for="bdate">Birth date</label>
+        <input type="date" id="bdate" required />
+      </div>
+      <div>
+        <label for="how">How happy are you?</label>
+        <input type="range" id="how" list="steplist" />
+        <datalist id="steplist">
+          <option>0</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+          <option>60</option>
+          <option>70</option>
+          <option>80</option>
+          <option>90</option>
+          <option>100</option>
+        </datalist>
+      </div>
+      <div>
+        <label for="color">What is your fav. color?</label>
+        <input type="color" id="color" />
+      </div>
+      <div>
+        <input type="submit" id="submit" value="Create Account" />
+      </div>
+    </form>
+  </body>
+</html>
