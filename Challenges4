@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  background-color: gray;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+div:first-child > div:first-child {
+  background-color: tomato;
+  width: 170px;
+  height: 220px;
+  border: solid white;
+  position: relative;
+}
+div:first-child > div:nth-child(2) {
+  background-color: burlywood;
+  width: 170px;
+  height: 220px;
+  border: solid white;
+  position: relative;
+}
+div:nth-child(2) > div:first-child {
+  background-color: teal;
+  width: 170px;
+  height: 220px;
+  border: solid white;
+  position: relative;
+}
+
+div:nth-child(2) > div:nth-child(2) {
+  background-color: thistle;
+  width: 170px;
+  height: 220px;
+  border: solid white;
+  position: relative;
+}
+span {
+  display: block;
+  background-color: white;
+  position: relative;
+  top: 13px;
+}
