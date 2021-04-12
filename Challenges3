@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Best Color</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <h1>The Best Color</h1>
+    <div class="box">
+      <div>
+        <div>
+          <span><br />Tomato<br /><br />#FF6347<br /></span>
+        </div>
+        <div>
+          <span><br />Burlywood<br /><br />#DEB887<br /></span>
+        </div>
+      </div>
+      <div>
+        <div>
+          <span><br />Teal<br /><br />#008080<br /></span>
+        </div>
+        <div>
+          <span><br />Thistle<br /><br />#D7BFD7<br /></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
