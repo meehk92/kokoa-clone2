@@ -1,64 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Playlist</title>
-    <link rel="stylesheet" href="stylech.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="testcss.css" />
   </head>
   <body>
-    <header>
-      <div class="exit"><i class="fas fa-times fa-2x"></i></div>
-      <h1>Playlist</h1>
-    </header>
+    <div class="border">
+      <header>
+        <div class="exit"><i class="fas fa-times fa-lg"></i></div>
+        <h1>Playlist</h1>
+      </header>
 
-    <article class="main">
-      <img class="main__image" src="colormain.jpg" />
-      <div class="main__text">
-        <span class="main__text-1">Random <br />Color</span>
-        <span class="main__text-2">by Chungsoo,Kim</span>
-      </div>
-    </article>
+      <article class="main">
+        <img class="main__image" src="colormain.jpg" />
+        <div class="main__text">
+          <span class="main__text-1">Random <br />Color</span>
+          <span class="main__text-2">by Chungsoo,Kim</span>
+        </div>
+      </article>
 
-    <article class="plp">
-      <div class="play">
-        <i class="fas fa-play fa-lg"></i>
-        <span class="play__text">Play!</span>
-      </div>
-      <div class="like">
-        <i class="far fa-heart fa-lg"></i>
-      </div>
-      <div class="plus">
-        <i class="fas fa-plus fa-lg"></i>
-      </div>
-    </article>
+      <article class="plp">
+        <div class="play">
+          <i class="fas fa-play fa-lg"></i>
+          <span class="play__text">Play!</span>
+        </div>
+        <div class="like">
+          <i class="far fa-heart fa-lg"></i>
+        </div>
+        <div class="plus">
+          <i class="fas fa-plus fa-lg"></i>
+        </div>
+      </article>
 
-    <article class="colormain">
-      <div class="colormain__one">
-        <div class="colormain__one-1"></div>
-        <span>Red!<br /></span>
-        <span>Rose, Apple, Heart</span>
-      </div>
-      <div class="colormain__two">
-        <div class="colormain__two-1"></div>
-        <span>Green!<br /></span>
-        <span>Avocado, Grass</span>
-      </div>
-      <div class="colormain__three">
-        <div class="colormain__three-1"></div>
-        <span>Blue!<br /></span>
-        <span>Sea, Sky, River</span>
-      </div>
-      <div class="colormain__four">
-        <div class="colormain__four-1"></div>
-        <span>Black!<br /></span>
-        <span>Tire, pupil of the eye </span>
-      </div>
-    </article>
-    <script
-      src="https://kit.fontawesome.com/f374e40e27.js"
-      crossorigin="anonymous"
-    ></script>
+      <article class="colormain">
+        <div class="colormain__one">
+          <div class="colormain__one-1"></div>
+          <span>Red!<br /></span>
+          <span>Rose, Apple, Heart</span>
+        </div>
+        <div class="colormain__two">
+          <div class="colormain__two-1"></div>
+          <span>Green!<br /></span>
+          <span>Avocado, Grass</span>
+        </div>
+        <div class="colormain__three">
+          <div class="colormain__three-1"></div>
+          <span>Blue!<br /></span>
+          <span>Sea, Sky, River</span>
+        </div>
+        <div class="colormain__four">
+          <div class="colormain__four-1"></div>
+          <span>Black!<br /></span>
+          <span>Tire, pupil of the eye </span>
+        </div>
+      </article>
+      <script
+        src="https://kit.fontawesome.com/f374e40e27.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
   </body>
 </html>
