@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="stylech.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="status__bar">
+        <i class="fas fa-bars fa-lg"></i>
+        <span>library</span>
+        <i class="fas fa-shopping-basket fa-lg"></i>
+      </div>
+      <form class="search__bar">
+        <input
+          class="search__bar-s"
+          type="search"
+          placeholder="Search books..."
+        />
+        <i class="fas fa-search"></i>
+      </form>
+
+      <div class="one__text">
+        <sapn>Book of the day</sapn>
+      </div>
+      <div class="main__book">
+        <img class="main__book-img" src="mainbook.jpg" />
+        <div class="main__book-exp">
+          <span class="onespan">Bear necessity<br /></span>
+          <span class="twospan">james gould bourn</span>
+          <div class="star">
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="far fa-star fa-xs"></i>
+          </div>
+          <button class="main__book-but" type="button">Journey</button>
+          <button class="main__book-but" type="button">Biography</button>
+          <div class="main__book-mark">
+            <i class="fas fa-bookmark fa-xs"></i>
+          </div>
+          <div class="btnthree">
+            <button type="button" class="main__book-butthree">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="two-text">
+        <span>Top Adventures</span>
+      </div>
+      <div class="book__selecter">
+        <div class="book__selecter-imgone">
+          <img class="bookimg__one" src="book1.png" />
+          <div class="star__zip-one">
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="far fa-star fa-xs"></i>
+          </div>
+        </div>
+        <div class="book__selecter-imgtwo">
+          <img class="bookimg__two" src="book2.jpg" />
+          <div class="star__zip-two">
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="far fa-star fa-xs"></i>
+          </div>
+        </div>
+        <div class="book__selecter-imgthree">
+          <img class="bookimg__three" src="book3.jpg" />
+          <div class="star__zip-three">
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="far fa-star fa-xs"></i>
+          </div>
+        </div>
+        <div class="book__selecter-imgfour">
+          <img class="bookimg__four" src="book4.jpg" />
+          <div class="star__zip-four">
+            <i class="fas fa-star fa-xs"></i>
+            <i class="fas fa-star fa-xs"></i>
+            <i class="far fa-star fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="three-text">
+        <span>Popular authors</span>
+      </div>
+
+      <div class="two-book">
+        <div class="two-book__img">
+          <img class="bookimg__five" src="book5.jpg" />
+        </div>
+        <span class="lastbookspan">George Raymond<br />Richard Martin</span>
+        <p class="lastbookspantwo">
+          Modern American science<br />fiction writer. screenwriter,<br />producer
+          and editor, winner<br />of many literary awards.
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f374e40e27.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
